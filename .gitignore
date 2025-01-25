@@ -1,52 +1,50 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
+# Visual Studio temporary files, build results, and
+# user-specific files
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.pch
 *.pdb
+*.ilk
+*.idb
+*.class
+*.jar
+*.csproj.user
+*.suo
+*.user
+*.filters
+*.log
+*.tlog
+*.lastbuildstate
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+out/
+
+# VSCode
+.vscode/
+
+# Visual Studio solution-specific files
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Other
+*.tmp
+*.log
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.Directory.Build.props
+
+# Dependency Cache and Packages
+packages/
+.vs/
