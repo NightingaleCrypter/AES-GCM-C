@@ -1,6 +1,1 @@
-#include <stdio.h>
-
-int main()
-{
-    printf("AES");
-}
+#include "AES-GCM-C.h"
